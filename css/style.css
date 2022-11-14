@@ -12,7 +12,7 @@
     --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     --transition: color var(--timing-function);
     --transitionBgC: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-border-radius: border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     --transition-box-shadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
@@ -522,6 +522,7 @@ a.client-link {
     color: var(--link-gray-color);
     background-color: var(--text-white-color); 
     border: 1px solid var(--link-gray-color);
+    border-radius: 4px;
   
      transition: var(--transition), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
@@ -672,7 +673,7 @@ address>ul>li:not(:last-child) {
     cursor: pointer;
     padding: 6px 22px;
 
-    transition: var(--transition), var(--transitionBgC), var(--transition-box-shadow), var(--transition-border-radius);
+    transition: var(--transition), var(--transitionBgC), var(--transition-box-shadow);
 }
 
 /*переопределяем цвет кнопок фильтра работ при ховере\фокусе\active*/
